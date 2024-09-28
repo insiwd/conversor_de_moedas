@@ -1,8 +1,8 @@
     package com.insiwd;
 
-    import com.insiwd.service.ConvertCurrency;
-
     import java.util.Scanner;
+
+    import com.insiwd.service.ConvertCurrency;
 
     public class Main {
         public static void main(String[] args) {
@@ -24,27 +24,13 @@
                 int option = sc.nextInt();
 
                 switch (option) {
-                    case 1:
-                        convertCurrency.convert("USD", "ARS");
-                        break;
-                    case 2:
-                        convertCurrency.convert("ARS", "USD");
-                        break;
-                    case 3:
-                        convertCurrency.convert("USD", "BRL");
-                        break;
-                    case 4:
-                        convertCurrency.convert("BRL", "USD");
-                        break;
-                    case 5:
-                        convertCurrency.convert("USD", "COP");
-                        break;
-                    case 6:
-                        convertCurrency.convert("COP", "USD");
-                        break;
-                    case 7:
-                        choice = false;
-                        break;
+                    case 1 -> convertCurrency.convert("USD", "ARS");
+                    case 2 -> convertCurrency.convert("ARS", "USD");
+                    case 3 -> convertCurrency.convert("USD", "BRL");
+                    case 4 -> convertCurrency.convert("BRL", "USD");
+                    case 5 -> convertCurrency.convert("USD", "COP");
+                    case 6 -> convertCurrency.convert("COP", "USD");
+                    case 7 -> choice = false;
                 }
             }
 
