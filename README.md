@@ -1,3 +1,3 @@
 # Conversor de moedas
 
-Uma aplicação CLI que converte um valor de uma moeda para outra.
+Uma aplicação CLI que converte um valor de uma moeda para outra em tempo real!
